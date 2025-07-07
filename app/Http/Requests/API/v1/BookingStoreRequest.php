@@ -24,7 +24,7 @@ class BookingStoreRequest extends APIFormRequest
             'slots.*.start_time' => [
                 'required',
                 'date',
-                'before:end_time',
+                'before:slots.*.end_time',
             ],
             'slots.*.end_time' => [
                 'required',
