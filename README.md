@@ -34,14 +34,14 @@ php artisan migrate
 php artisan db:seed
 ```
 6. Тестируем АПИ.
-6.1. Прогоняем через тесты
-```
-php artisan test --filter=BookingAPITest
-```
-6.2. Запускаем сервер и отправляем запросы
-```
-php artisan serve 
-```
+    1. Прогоняем через тесты
+    ```
+    php artisan test --filter=BookingAPITest
+    ```
+    2. Запускаем сервер и отправляем запросы
+    ```
+    php artisan serve 
+    ```
 
 ### АПИ
 ### АПИ
