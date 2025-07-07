@@ -40,7 +40,7 @@ class BookingController
 
     public function updateSlot(Booking $booking, BookingSlot $slot, BookingSlotUpdateRequest $request): BookingResource
     {
-        if ($booking->user_id != Auth::id()) {
+        if ($booking->user_id != Auth::id() || $slot->booking_id != $booking->id) {
             abort(403, 'Access denied.');
         }
 
