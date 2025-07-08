@@ -44,7 +44,7 @@ php artisan db:seed
     ```
 
 ## АПИ
-Для доступа к АПИ требуется указать заголовок Authorization: Bearer {token}, где token - api_token из модели user.
+Для доступа к АПИ требуется указать заголовок Authorization: Bearer {token}, где token - api_token из модели user. Например: Bearer Jfibf9so8vxc
 
 ### GET: /api/bookings
 Получить список бронирований пользователя.
