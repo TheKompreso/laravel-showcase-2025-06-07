@@ -43,8 +43,9 @@ php artisan db:seed
     php artisan serve 
     ```
 
-### АПИ
-### АПИ
+## АПИ
+Для доступа к АПИ требуется указать заголовок Authorization: Bearer {token}, где token - api_token из модели user.
+
 ### GET: /api/bookings
 Получить список бронирований пользователя.
 
