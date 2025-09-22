@@ -6,10 +6,10 @@
 - MySQL
 ### Установка
 1. Скачиваем проект:
-    - Вариант 1: скачайте [архив](https://github.com/TheKompreso/laravel-showcase-06-07/archive/refs/heads/master.zip) с проектом  и разархивируйте в нужную папку.
+    - Вариант 1: скачайте [архив](https://github.com/TheKompreso/laravel-showcase-2025-06-07/archive/refs/heads/master.zip) с проектом  и разархивируйте в нужную папку.
     - Вариант 2: с помощью git clone:
 ```
-git clone https://github.com/TheKompreso/laravel-showcase-06-07
+git clone https://github.com/TheKompreso/laravel-showcase-2025-06-07
 ```
 2. Устанавливаем зависимости:
 ```
