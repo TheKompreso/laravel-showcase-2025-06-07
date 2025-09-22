@@ -1,5 +1,9 @@
 ## Laravel - Showcase
 
+### Техническое задание
+
+https://github.com/TheKompreso/laravel-showcase-2025-06-07/blob/main/Техническое%20задание.md
+
 ### Требования
 - PHP 8.2+
 - Composer
